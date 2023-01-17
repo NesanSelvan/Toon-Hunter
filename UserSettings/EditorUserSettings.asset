@@ -6,31 +6,34 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 000806515c07510b5e5e5c7216250f44464f48292a7d7e602c794e32b5b8313b
-      flags: 0
-    RecentlyUsedSceneGuid-1:
-      value: 51530d56550158585d5c0a2340770d44414e4c2b2a7a22657d794863bab06d69
-      flags: 0
-    RecentlyUsedSceneGuid-2:
-      value: 51060107570c5d0b545d5c7a15750c4417164a2b2d2d75637c2c4b37e0b83639
-      flags: 0
-    RecentlyUsedSceneGuid-3:
-      value: 5150515306575d0d5f56097b16250e444e154d737e2c22657d7e4a66e6e3676a
-      flags: 0
-    RecentlyUsedSceneGuid-4:
       value: 5055050250530a5a580d5c73437b0e4413154f797b7c7263797a446ab7b6633a
       flags: 0
-    RecentlyUsedSceneGuid-5:
+    RecentlyUsedSceneGuid-1:
       value: 5006505604560c5a58565571147b07444f151e7c747d22697c711f64b6e43060
       flags: 0
-    RecentlyUsedSceneGuid-6:
+    RecentlyUsedSceneGuid-2:
+      value: 5150515306575d0d5f56097b16250e444e154d737e2c22657d7e4a66e6e3676a
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 07080d575706580a5c585d7448210f4446161d722f7e7f332c284f6bbbb6356c
+      flags: 0
+    RecentlyUsedSceneGuid-4:
       value: 00090156005051585e0c5d7613200744434e1d7d29797e66757c4a30e4b5626f
       flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 5552500552565f090c0f5a71127b0b44144f4c2f297c20687c7f4d31b7b6373b
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 5502025f5003585e0c595f7212250c44454f1b282f7b77692f2a4c37b7e56769
+      flags: 0
     RecentlyUsedSceneGuid-7:
-      value: 5555075704020f0b5e5f097740225c444e4f48287e7870352e284a30b2b2653c
+      value: 0608565e51030a0c550b5c2412755b4442154f7f7d70776528791c62e4b26768
       flags: 0
     RecentlyUsedSceneGuid-8:
-      value: 0608565e51030a0c550b5c2412755b4442154f7f7d70776528791c62e4b26768
+      value: 500106575350500b595f082316720644174f4b2e782e2069782f4463e1e1656f
+      flags: 0
+    RecentlyUsedSceneGuid-9:
+      value: 5555075704020f0b5e5f097740225c444e4f48287e7870352e284a30b2b2653c
       flags: 0
     UnityRemoteDevice:
       value: 225f4d46245b0d4902070862342649191512

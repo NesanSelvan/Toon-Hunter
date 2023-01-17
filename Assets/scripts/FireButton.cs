@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FireButton : MonoBehaviour
 {
@@ -12,17 +13,19 @@ public class FireButton : MonoBehaviour
     private float range = 100f;
     public GameManager m_gm; 
     public int hitscore;
-    public level1 m_lvl;
+    public int toonkilled;
+    public int lv1bullets =5;
+    public int lv2bullets = 8;
 
     void Start()
     {
-        m_lvl = m_lvl.GetComponent<level1>();
         m_gm = m_gm.GetComponent<GameManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
+
      //   Vector3 randomSpawnPosition = new Vector3(Random.Range(-10, 11), 5, Random.Range(-10, 11));
        //     Instantiate(cubePrefab, randomSpawnPosition, Quaternion.identity);
     }
@@ -32,7 +35,8 @@ public class FireButton : MonoBehaviour
         if(Physics.Raycast(fpscamera.transform.position,fpscamera.transform.forward,out hit,range))
         {
             hitobj = hit.transform.gameObject;
-            m_lvl.bullets--;
+            lv1bullets--;
+            lv2bullets--;
    //Debug.Log(hitobj.tag);     
             destroyToons();
         }
@@ -46,7 +50,7 @@ void destroyToons(){
         Destroy(hitobj);
         m_gm.enemiesalive--;
          hitscore += 20;
-         m_lvl.toonskilled++;
+         toonkilled++;
     }
 }
 }

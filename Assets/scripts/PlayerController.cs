@@ -22,7 +22,8 @@ public class PlayerController : MonoBehaviour
     float xRotation = 0f;
 
     public float ymin;
-    
+    float leftpos;
+    float rightpos;
     void Start()
     {
         m_ch = GetComponent<CharacterController>();
@@ -43,11 +44,15 @@ public class PlayerController : MonoBehaviour
     }
     void computeMovement()
     {
-        //buttons
-        if(moveright)
-			transform.Translate(Vector3.left * 20 * Time.deltaTime);
-		if(moveleft)
-			transform.Translate(Vector3.right * 20 * Time.deltaTime);
+        leftpos = transform.position.x + 1* 20 * Time.deltaTime;
+        rightpos = transform.position.x - 1* 20 * Time.deltaTime;
+        if(moveright && transform.position.x > -11)
+            transform.position = new Vector3(rightpos,transform.position.y,transform.position.z);
+		if(moveleft && transform.position.x < 32  )
+            transform.position = new Vector3(leftpos,transform.position.y,transform.position.z);
+         			//transform.Translate(pos * 20 * Time.deltaTime);
+
+           // transform.Translate(1*5*Time.deltaTime,0,0);
             //Joystick
        // Vector2 input = playerInput.actions["Move"].ReadValue<Vector2>();
 

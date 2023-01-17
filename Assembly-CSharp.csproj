@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\level1.cs" />
      <Compile Include="Assets\Samples\Adaptive Performance\3.0.2\Environment\Bottleneck\BottleneckUI.cs" />
      <Compile Include="Assets\Samples\Adaptive Performance\3.0.2\Bottleneck\BottleneckControl.cs" />
      <Compile Include="Assets\Samples\Adaptive Performance\3.0.2\Environment\HighLevelLoadManager.cs" />
@@ -66,10 +67,10 @@
      <Compile Include="Assets\Samples\Adaptive Performance\3.0.2\Boost\BoostControl.cs" />
      <Compile Include="Assets\Samples\Adaptive Performance\3.0.2\Environment\ShowFPS.cs" />
      <Compile Include="Assets\scripts\PlayerController.cs" />
+     <Compile Include="Assets\HomeLevels.cs" />
      <Compile Include="Assets\Samples\Adaptive Performance\3.0.2\Environment\TestSequence.cs" />
      <Compile Include="Assets\Samples\Adaptive Performance\3.0.2\Adaptive LOD\LODControl.cs" />
-     <Compile Include="Assets\level1.cs" />
-     <Compile Include="Assets\HomeLevels.cs" />
+     <Compile Include="Assets\level2.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

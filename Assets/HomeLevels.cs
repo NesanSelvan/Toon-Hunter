@@ -21,4 +21,8 @@ public class HomeLevels : MonoBehaviour
         SceneManager.LoadScene(2);
         Time.timeScale = 0;
     }
+    public void level2(){
+        SceneManager.LoadScene(3);
+        Time.timeScale = 0;
+    }
 }
