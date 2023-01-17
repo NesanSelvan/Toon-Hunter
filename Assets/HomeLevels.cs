@@ -25,4 +25,16 @@ public class HomeLevels : MonoBehaviour
         SceneManager.LoadScene(3);
         Time.timeScale = 0;
     }
+     public void level3(){
+        SceneManager.LoadScene(4);
+        Time.timeScale = 0;
+    } public void level4(){
+        SceneManager.LoadScene(5);
+        Time.timeScale = 0;
+    }
+    public void level5(){
+        SceneManager.LoadScene(6);
+        Time.timeScale = 0;
+    }
 }
+

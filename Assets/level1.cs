@@ -39,11 +39,15 @@ public class level1 : MonoBehaviour
         {
             Debug.Log("Level completed");
             completedscreen.SetActive(true);
+                                                Time.timeScale = 0;
+
         }
         else if(m_fb.toonkilled != 3)
         {
             Debug.Log("Game over");
             gameoverscreen.SetActive(true);
+                                                Time.timeScale = 0;
+
 
         }
         }

@@ -16,6 +16,10 @@ public class FireButton : MonoBehaviour
     public int toonkilled;
     public int lv1bullets =5;
     public int lv2bullets = 8;
+    public int lv3bullets = 12;
+    public int lv4bullets = 15; 
+    public int lv5bullets = 8; 
+
 
     void Start()
     {
@@ -37,6 +41,9 @@ public class FireButton : MonoBehaviour
             hitobj = hit.transform.gameObject;
             lv1bullets--;
             lv2bullets--;
+            lv3bullets--;
+            lv4bullets--;
+            lv5bullets--;
    //Debug.Log(hitobj.tag);     
             destroyToons();
         }

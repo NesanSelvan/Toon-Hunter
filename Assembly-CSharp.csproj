@@ -64,13 +64,16 @@
      <Compile Include="Assets\Samples\Adaptive Performance\3.0.2\Environment\MidLevelLoadManager.cs" />
      <Compile Include="Assets\Samples\Adaptive Performance\3.0.2\Environment\AutoPerfUI.cs" />
      <Compile Include="Assets\scripts\pauseMenu.cs" />
+     <Compile Include="Assets\level2.cs" />
      <Compile Include="Assets\Samples\Adaptive Performance\3.0.2\Boost\BoostControl.cs" />
      <Compile Include="Assets\Samples\Adaptive Performance\3.0.2\Environment\ShowFPS.cs" />
      <Compile Include="Assets\scripts\PlayerController.cs" />
      <Compile Include="Assets\HomeLevels.cs" />
      <Compile Include="Assets\Samples\Adaptive Performance\3.0.2\Environment\TestSequence.cs" />
      <Compile Include="Assets\Samples\Adaptive Performance\3.0.2\Adaptive LOD\LODControl.cs" />
-     <Compile Include="Assets\level2.cs" />
+     <Compile Include="Assets\level3.cs" />
+     <Compile Include="Assets\level4.cs" />
+     <Compile Include="Assets\level5.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
