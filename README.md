@@ -11,5 +11,5 @@ This is a game Application developed in Unity
 <img src="https://github.com/NesanSelvan/Toon-Hunter/blob/main/Assets/6.jpg" width=300 height=150>
 
 <h2>Output Video <h2>
-    <td><video src='https://github.com/NesanSelvan/Toon-Hunter/blob/main/Assets/toon.mp4' width=300/></td>
+<video src='https://github.com/NesanSelvan/Toon-Hunter/blob/main/Assets/toon.mp4' width=300/>
 
